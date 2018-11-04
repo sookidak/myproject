@@ -18,5 +18,9 @@
   "homepage": "https://github.com/sookidak/myproject#readme",
   "devDependencies": {
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-livereload": "^4.0.0",
+    "gulp-webserver": "^0.9.1"
   }
 }
