@@ -1,11 +1,38 @@
 // include gulp
-var gulp = require('gulp');
-var src = 'public/src';
-var dist = 'public/build';
-var webserver = require('gulp-webserver');
-var livereload = require('gulp-livereload');
+const gulp = require('gulp');
+const src = 'src';
+const dist = 'dist';
+const webserver = require('gulp-webserver');
+const livereload = require('gulp-livereload');
 
-var paths = {
+
+
+
+
+const DIR = {
+    SRC: 'src',
+    DEST: 'dist'
+};
+
+const SRC = {
+    JS: DIR.SRC + '/js/*.js',
+    CSS: DIR.SRC + '/css/*.css',
+    HTML: DIR.SRC + '/*.html',
+    IMAGES: DIR.SRC + '/images/*'
+};
+
+const DEST = {
+    JS: DIR.DEST + '/js',
+    CSS: DIR.DEST + '/css',
+    HTML: DIR.DEST + '/',
+    IMAGES: DIR.DEST + '/images'
+};
+
+
+
+
+
+const paths = {
 	//js: src + '/js/*.js',
 	css: src + '/css/*.css',
 	html: src + '/**/*.html'
