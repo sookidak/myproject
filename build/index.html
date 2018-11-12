@@ -1,63 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/reset.css">
-    <title>인하대병원</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<title>인하대병원</title>
 </head>
 <body>
 <div class="skip">
 	<h2>스킵네비게이션</h2>
 	<ul>
-		<li><a href="#">메뉴바로가기</a></li>
-		<li><a href="#">본문바로가기</a></li>
+		<li><a href="#nav">메뉴바로가기</a></li>
+		<li><a href="#container">본문바로가기</a></li>
 	</ul>
 </div>
 <!-- header -->
 <header class="header">
 	<section class="top-wrap">
 		<div class="common-layout">
+			<h1><a href=""><img src="./img/logo.png" alt="인하대병원" /></a></h1>
 			<div class="top-left">
 				<ul class="link-unit">
 					<li>
-						<a href="#">병원이용안내</a><span class="dot-mid"></span>
+						<a href="#link">병원이용안내</a>
 					</li>
 					<li>
-						<a href="#">층별안내</a><span class="dot-mid"></span>
+						<a href="#link">층별안내</a>
 					</li>
 					<li>
-						<a href="">찾아오시는길</a><span class="dot-mid"></span>
+						<a href="#link">찾아오시는길</a>
 					</li>
 				</ul>
 			</div>
-			<h1><a href=""><img src="./img/logo.png" alt="인하대병원" /></a></h1>
-			<div class=""></div>
+			<div class="top-right">
+				<ul class="link-unit">
+					<li><a href="">로그인</a></li>
+					<li><a href="">회원가입</a></li>
+					<li><a href=""><span class="">KOR</span></a></li>
+				</ul>
+			</div>
 		</div>
 	</section>
 	<section class="nav-wrap">
 		<div class="common-layout">
 			<nav id="nav">
+				<button type="button">allmenu</button>
+				<ul class="gnb">
+					<li><a href="#">진료예약</a></li>
+					<li><a href="#">진료과/의료진</a></li>
+					<li><a href="#">진료안내</a></li>
+					<li><a href="#">건강정보</a></li>
+					<li><a href="#">병원소개</a></li>
+				</ul>
 			</nav>
-		</div>
-	</section>
-	<section class="location-wrap">
-		<div class="common-layout">
+			<div class="header-quickbtn">
+				<button type="button" class="quickbtn-res">빠른예약</button>
+				<button type="button" class="quickbtn-my">나의차트</button>
+			</div>
 		</div>
 	</section>
 </header>
 <!-- //header -->
+<!-- location -->
+<section class="location-wrap">
+	<div class="common-layout">
 
+	</div>
+</section>
+<!-- //location -->
 <!-- container -->
-<section class="container">
-	<p>main</p>
-	<p>main</p>
-	<p>main</p>
-	<p>main</p>
-	<a href="#">main</a>
-	<p abbr="title">main</p>
+<section class="container" id="container">
+	<div class="pagetitle-wrap">
+		<h1 class="title">가정의학과</h1>
+	</div>
+	<div class="contents">
+		<img src="./img/test.png" alt="">
+	</div>
 </section>
 <!-- //container -->
+<!-- footer -->
+<footer class="footer">
+	<!-- quicklink -->
+	<section class="quicklink-wrap">
+		<div class="common-layout">
+			<ul class="quicklink">
+				<li><a href="#" class="quick-1">건강증진센터</a></li>
+				<li><a href="#" class="quick-2">심뇌혈관질환센터</a></li>
+				<li><a href="#" class="quick-3">장례식장</a></li>
+				<li><a href="#" class="quick-4">증명서발급</a></li>
+				<li><a href="#" class="quick-5">전화번호 안내</a></li>
+				<li><a href="#" class="quick-6">찾아오시는 길</a></li>
+			</ul>
+		</div>
+	</section>
+	<!-- //quicklink -->
+	<!-- footer-banner -->
+	<section class="fbanner-wrap">
+		<div class="common-layout">
+			<ul class="certi-list">
+				<li class="certi bnr-1">
+					<span>JCI<br>인증획득</span>
+				</li>
+				<li class="certi bnr-2">
+					<span>포브스<br>사회공헌대상</span>
+				</li>
+				<li class="certi bnr-3">
+					<span>보건복지부 의료기관 평가<br>인증마크 획득</span>
+				</li>
+				<li class="certi bnr-4">
+					<span>동아일보<br>신뢰받는 착한브랜드 대상</span>
+				</li>
+				<li class="certi bnr-5">
+					<span>건강보험심사평가원<br>QI우수사례 대상</span>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- //footer-banner -->
+	<!-- footerlink -->
+	<section class="supportlink-wrap">
+		<div class="common-layout">
+			<ul class="supportlink">
+				<li><a href="#link">의생명연구원</a></li>
+				<li><a href="#link">교육수련부</a></li>
+				<li><a href="#link">장례식장</a></li>
+				<li><a href="#link">채용정보</a></li>
+				<li><a href="#link">장례식장</a></li>
+				<li><a href="#link">고객센터</a></li>
+				<li><a href="#link">이메일주소무단수집거부</a></li>
+				<li><a href="#link">개인정보취급방침</a></li>
+				<li><a href="#link">환자권리장전</a></li>
+			</ul>
+		</div>
+	</section>
+	<!-- //footerlink -->
+	<!-- copyright -->
+	<section class="copyright-wrap">
+		<div class="common-layout">
+			<div class="copyright-info">
+				<ul>
+					<li class="hos-info">전화예약 및 문의<em>032-890-2000 / 1600-8114</em>(평일 09:00 ~ 17:30 / 주말 및 공휴일 휴무)</li>
+					<li>인천광역시 중구 인항로 27 (신흥동 3가 7- 206) 인하대병원 (우) 22332</li>
+					<li>대표전화 : 032-890-2114 / 1600-8114</li>
+					<li class="copyright">copyright(c) INHA UNIVERSITY HOSPITAL. ALL RIGHTS RESERVED.</li>
+				</ul>
+			</div>
+			<div class="copyright-relative">
+				<div class="relative-btn">
+					<button type="button">주요서비스</button>
+					<button type="button">관련사이트</button>
+				</div>
+				<div class="relative-row">
+					<div class="relative-service"><p>의료정보시스템 (OCS.EMR) 및 홈페이지 서비스운영<br>2018.04.26 ~ 2021.04.25</p></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //copyright -->
+</footer>
+<!-- footer -->
 </body>
 </html>

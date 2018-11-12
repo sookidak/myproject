@@ -1,15 +1,71 @@
 @@include('./inc/head.html')
 <style>
-	
+	table th,table td{border:1px solid #ccc;padding:5px;font-size:13px}
+	.guide{padding:20px;width:1180px;margin:0 auto;}
+	.guide-title{font-size:30px;margin-bottom:30px;text-align: center;font-weight: bold}
+	.guide-title2{font-size:20px;margin-bottom:20px}
+	.table-guide{width:100%;}
+	.guide-section{margin-bottom:30px;}
+	.guide-nav{margin-bottom:20px;}
+	.guide-nav:after{content:'';display:block;clear: both;width:100%;}
+	.guide-nav li{display:table-cell;vertical-align:middle;height:40px;background:#3d4044}
+	.guide-nav li:hover{background:#199da3;}
+	.guide-nav li a{display:block;color:#fff;padding:0 20px;font-weight: bold}
 </style>
-<section class="">
-	<table>
-		<tr>
-			<th></th>
-			<td></td>
-			<th></th>
-			<td></td>
-		</tr>
-	</table>
+
+<section class="guide">
+	<section class="guide-title">인하대병원 가이드</section>
+	<section class="guide-nav">
+		<ul>
+			<li><a href="#guide-icon">아이콘</a></li>
+			<li><a href="#guide-btns">버튼</a></li>
+		</ul>
+	</section>
+	<!-- 버튼 가이드 -->
+	<section class="guide-section" id="guide-icon">
+		<h2 class="guide-title2">아이콘가이드</h2>
+		<table class="table-guide">
+			<tr>
+				<th>
+					<div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+				</th>
+				<td>
+					<xmp><button type="button" class="btn btn-normal">normal</button></xmp>
+				</td>
+				<th>
+					<div class="item loading-3">
+						<div class="loading"></div>
+						<div>.loading-3</div>
+					</div>
+				</th>
+				<td>
+					<xmp><button type="button" class="btn btn-normal">normal</button></xmp>
+				</td>
+			</tr>
+		</table>
+	</section>
+	<!-- //버튼 가이드 -->
+	<!-- 버튼 가이드 -->
+	<section class="guide-section" id="guide-btns">
+		<h2 class="guide-title2">버튼가이드</h2>
+		<table class="table-guide">
+			<tr>
+				<th>
+					<button type="button" class="btn btn-normal">normal</button>
+				</th>
+				<td>
+					<xmp><button type="button" class="btn btn-normal">normal</button></xmp>
+				</td>
+				<th>
+					<button type="button" class="btn btn-normal">normal</button>
+				</th>
+				<td>
+					<xmp><button type="button" class="btn btn-normal">normal</button></xmp>
+				</td>
+			</tr>
+		</table>
+	</section>
+	<!-- //버튼 가이드 -->
 </section>
-@@include('./inc/footer.html')
+</body>
+</html>
